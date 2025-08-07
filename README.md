@@ -36,9 +36,9 @@ A simple chat application that allows users to chat in real-time using **Socket.
 
 ### 🖥️ Frontend Setup (React)
 
-1. **Navigate to the frontend directory:**
+1. **Navigate to the main directory:**
    ```bash
-   cd frontend
+   cd chat-app
    ```
 
 2. **Create environment file:**
@@ -62,7 +62,6 @@ A simple chat application that allows users to chat in real-time using **Socket.
    ```
    - App will run at `http://localhost:3000`
 
----
 
 ### 🛠️ Backend Setup (Node.js + Express)
 
@@ -80,7 +79,7 @@ A simple chat application that allows users to chat in real-time using **Socket.
    ```
    PORT=8000
    SecretJWT=your_jwt_secret
-   mongoDbUrl=mongodb://localhost:27017/chat-app
+   mongoDbUrl=your_mongo_deb_url
    ```
 
 4. **Install dependencies:**
@@ -94,7 +93,6 @@ A simple chat application that allows users to chat in real-time using **Socket.
    ```
    - Backend server will run at `http://localhost:8000`
 
----
 
 ### 🚀 Production Build
 
@@ -107,22 +105,4 @@ A simple chat application that allows users to chat in real-time using **Socket.
    ```bash
    npm start
    ```
-
----
-
-## 📂 Folder Structure
-
-```
-chat-app/
-├── backend/
-│   ├── src/
-│   ├── tsconfig.json
-│   └── .env.example
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── .env.example
-├── README.md
-```
-
 
