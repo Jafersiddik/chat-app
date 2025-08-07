@@ -23,7 +23,7 @@ A simple real-time chat app using **Node.js**, **React**, **Socket.IO**, and **M
 ### Frontend
 
 ```bash
-cd frontend
+cd chat-app
 cp .env.example .env
 # Update .env:
 # REACT_APP_API_URL=http://localhost:8000
