@@ -42,15 +42,8 @@ cp .env.example .env
 # mongoDbUrl=mongodb://localhost:27017/chat-app
 npm install
 npm run dev
+
+#Production
+npm run build   
+npm start       
 ```
-
-### Production
-
-```bash
-npm run build   # Frontend
-npm start       # Backend
-```
-
-## 📄 License
-
-MIT License
